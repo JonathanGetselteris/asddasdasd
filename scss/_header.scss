@@ -1,0 +1,33 @@
+.navbar{
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #222831;
+    .logo{
+      width: 3.5rem;
+    }
+    .navbar-toggler{
+      background-color: #b69944;
+    }
+    .nav-link{
+      color: #EEEEEE;
+      &:hover{
+        color: #00ADB5;
+      }
+    }
+    .activo{
+      color: #a88ec0;
+    }
+    .dropdown-menu{
+      background-color: #222831;
+      .dropdown-item{
+        color: #EEEEEE;
+        &:hover{
+          background-color: #222831;
+          color: #00ADB5;
+        }
+      }
+      .activo{
+        color: #a88ec0;
+      }
+    }
+  }
